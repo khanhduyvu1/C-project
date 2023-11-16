@@ -1,5 +1,4 @@
-/* Khanh Vu
- * U56604117
+/*
  * The program calculates and prints the charges for a floor cleaning equipment rental,
  * allows users enter type of floor cleaning with time.
  */

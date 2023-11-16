@@ -1,6 +1,4 @@
 /*
- * Khanh Vu
- * U56604117
  * The program calculates the number of active seconds that an escalator was active.
  */
 #include<stdio.h>

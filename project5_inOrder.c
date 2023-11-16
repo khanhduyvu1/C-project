@@ -1,6 +1,4 @@
 /*
- * Khanh Vu
- * U56604117
  * The program that determines if the input characters are in order
  */
 #include <stdio.h>

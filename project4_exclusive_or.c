@@ -1,6 +1,4 @@
 /*
- * Khanh Vu
- * U56604117
  * The exclusive or of two arrays a and b of
  * integers are the elements that are either in a or in b, but not in both a and b
  */

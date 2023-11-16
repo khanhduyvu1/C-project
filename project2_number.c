@@ -1,6 +1,4 @@
 /*
- * Khanh Vu
- * U56604117
  * The program determines if a number entered by the user is including digit 3 and divided by 3
  */
 #include <stdio.h>

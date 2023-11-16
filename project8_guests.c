@@ -1,6 +1,4 @@
 /*
- * Khanh Vu
- * U56604117
  * Program manages and tracks the guest list for a local restaurant
  */
 #include <stdio.h>

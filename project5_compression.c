@@ -1,6 +1,4 @@
 /*
- * Khanh Vu
- * U56604117
  * The program encode is as follows: 'consecutive character count' followed by the 'character'
  */
 #include <stdio.h>

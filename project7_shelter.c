@@ -1,6 +1,4 @@
 /*
- * Khanh Vu
- * U56604117
  * A program searches for animals in a data file (animals.txt) for adoption purposes
  */
 #include <stdio.h>

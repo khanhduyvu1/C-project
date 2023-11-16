@@ -1,5 +1,4 @@
-/* Khanh Vu
- * U56604117
+/*
  * The program will first ask the user to enter the file name,
  * open and read the file, decode the message, then write the
  * resulting message to a file with the same name but an added prefix of decoded_
