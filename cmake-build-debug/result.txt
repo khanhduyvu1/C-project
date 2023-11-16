@@ -1,0 +1,44 @@
+Name: Boo-boo
+Age: 11
+Weight: 123.00
+
+Name: Gir
+Age: 8
+Weight: 88.00
+
+Name: Max
+Age: 3
+Weight: 52.80
+
+Name: Kujo
+Age: 8
+Weight: 172.00
+
+Name: Fritz
+Age: 4
+Weight: 92.00
+
+Name: Lucky
+Age: 3
+Weight: 45.40
+
+Name: Rex
+Age: 4
+Weight: 28.90
+
+Name: Bo
+Age: 8
+Weight: 76.10
+
+Name: Yoyo
+Age: 13
+Weight: 10.50
+
+Name: Bear
+Age: 4
+Weight: 7.00
+
+Name: Rocky
+Age: 8
+Weight: 56.00
+
