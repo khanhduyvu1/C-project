@@ -478,8 +478,8 @@ build animal.exe: C_EXECUTABLE_LINKER__animal_Debug CMakeFiles/animal.dir/projec
 
 build cmake_object_order_depends_target_guest: phony || CMakeFiles/guest.dir
 
-build CMakeFiles/guest.dir/project8_guests.c.obj: C_COMPILER__guest_unscanned_Debug C$:/Users/khanh/CLionProjects/untitled/project8_guests.c || cmake_object_order_depends_target_guest
-  DEP_FILE = CMakeFiles\guest.dir\project8_guests.c.obj.d
+build CMakeFiles/guest.dir/project9_guests.c.obj: C_COMPILER__guest_unscanned_Debug C$:/Users/khanh/CLionProjects/untitled/project9_guests.c || cmake_object_order_depends_target_guest
+  DEP_FILE = CMakeFiles\guest.dir\project9_guests.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\guest.dir
   OBJECT_FILE_DIR = CMakeFiles\guest.dir
@@ -492,7 +492,7 @@ build CMakeFiles/guest.dir/project8_guests.c.obj: C_COMPILER__guest_unscanned_De
 #############################################
 # Link the executable guest.exe
 
-build guest.exe: C_EXECUTABLE_LINKER__guest_Debug CMakeFiles/guest.dir/project8_guests.c.obj
+build guest.exe: C_EXECUTABLE_LINKER__guest_Debug CMakeFiles/guest.dir/project9_guests.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\guest.dir
@@ -501,6 +501,39 @@ build guest.exe: C_EXECUTABLE_LINKER__guest_Debug CMakeFiles/guest.dir/project8_
   TARGET_FILE = guest.exe
   TARGET_IMPLIB = libguest.dll.a
   TARGET_PDB = guest.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target animal1
+
+
+#############################################
+# Order-only phony target for animal1
+
+build cmake_object_order_depends_target_animal1: phony || CMakeFiles/animal1.dir
+
+build CMakeFiles/animal1.dir/project9_shelter.c.obj: C_COMPILER__animal1_unscanned_Debug C$:/Users/khanh/CLionProjects/untitled/project9_shelter.c || cmake_object_order_depends_target_animal1
+  DEP_FILE = CMakeFiles\animal1.dir\project9_shelter.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\animal1.dir
+  OBJECT_FILE_DIR = CMakeFiles\animal1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target animal1
+
+
+#############################################
+# Link the executable animal1.exe
+
+build animal1.exe: C_EXECUTABLE_LINKER__animal1_Debug CMakeFiles/animal1.dir/project9_shelter.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\animal1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = animal1.exe
+  TARGET_IMPLIB = libanimal1.dll.a
+  TARGET_PDB = animal1.exe.dbg
 
 
 #############################################
@@ -536,6 +569,8 @@ build Test: phony Test.exe
 
 build animal: phony animal.exe
 
+build animal1: phony animal1.exe
+
 build decode: phony decode.exe
 
 build encode: phony encode.exe
@@ -564,7 +599,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: C:/Users/khanh/CLionProjects/untitled/cmake-build-debug
 
-build all: phony untitled.exe Project.exe Test.exe Number.exe inOrder.exe rental.exe escalator.exe exclusive.exe escalator1.exe encode.exe inOrder1.exe decode.exe animal.exe guest.exe
+build all: phony untitled.exe Project.exe Test.exe Number.exe inOrder.exe rental.exe escalator.exe exclusive.exe escalator1.exe encode.exe inOrder1.exe decode.exe animal.exe guest.exe animal1.exe
 
 # =============================================================================
 # Built-in targets
